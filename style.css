@@ -255,7 +255,8 @@ body{
 
 .footer{
     background-color:rgb(0, 0, 57);
-    text-align:center;
+    margin-top:100px;
+    /* text-align:center; */
 
 }
 
@@ -308,6 +309,43 @@ body{
     padding:11.5px;
 }
 
-.break{
-    color:white;
+.final{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 30px;
+}
+
+.f-company{
+    color:rgb(146, 146, 146);
+    margin-left:100px;
+    padding-top:10px;
+    
+}
+
+.f-4{
+    text-align:right;
+}
+
+.f-social{
+    display:inline-flex;
+    padding-top: 10px;
+    margin-right:100px;
+}
+
+.f-image{
+    height:32px;
+    width:32px;
+    padding:15px;
+    border-radius:50%;
+}
+
+.f-ls{
+    display:flex;
+    color:rgb(146, 146, 146);
+    margin-left:230px;
+}
+
+.f-ls p{
+    padding:8px;
+    font-size: 15px;
 }
